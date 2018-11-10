@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+{{ $social := .Site.Data.social }}
+
+<div class="main-content">
+	{{ partial "about.html" . }}
+	{{ if .Site.Data.education }}{{ partial "education.html" . }}{{ end }}
+	{{ if .Site.Data.projects }}{{ partial "projects.html" . }}{{ end }}
+	{{ partial "footer.html" . }}
+</div>
+{{ partial "footer-scripts.html" . }}

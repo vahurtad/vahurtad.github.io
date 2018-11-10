@@ -1,0 +1,29 @@
+{{ $projects := .Site.Data.projects }}
+
+<section id="projects" class="random2 text-light">
+  <h2 class="heading">{{ $projects.title }}</h2>
+  {{ range $key, $value := $projects.projects }}
+  <span class="cardcontainer">
+      <div class="social my-4">
+          <h5 class="mt-4">{{ $value.name }}
+            
+            <a target="_blank" href="{{ $value.url }}">
+              <i class="fab fa-github"></i>
+            </a>
+          </h5>
+      </div>
+      <p class="bs"> {{$value.description}}</p>
+      {{ range $k, $val := $value.stack }}
+      <span class="roundcard">
+        <i class="fab fa-{{ lower $val }}"></i>
+        {{ $val }}
+      </span>   
+      {{end}}
+  </span>
+
+     
+
+{{ end }}
+</section>
+
+

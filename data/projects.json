@@ -1,0 +1,35 @@
+{
+    "title": "Projects",
+    "projects": [
+        {
+            "name": "Crypto Trader Helper and Feed in Bash",
+            "description": "Tackle the problem of setting a limit-stop-loss and a limit-buy-target at the same time.",
+            "stack": ["Node", "Typescript", "REST"],
+            "url": "https://github.com/vahurtad/TraderFeed"
+        },
+        {
+            "name": "Civic App",
+            "description": "https://www.getcivicapp.com/",
+            "stack": ["Firebase", "React Native", "Redux", "Node"],
+            "url": "https://github.com/civic-app/civic-app"
+        },
+        {
+            "name": "Weather App",
+            "description": "Build a small app using Typescript and React Native built using Expo",
+            "stack": ["JSON", "React Native", "Expo", "Typescript"],
+            "url": "https://github.com/vahurtad/Weather_TS"
+        },
+        {
+            "name": "WhatNow",
+            "description": "Register users find events around them at any time and facilitate hosts with event planning through their phone.",
+            "stack": ["Firebase", "Android SDK", "Java"],
+            "url": "https://github.com/jwvance/WhatNow"
+        },
+        {
+            "name": "Data Analysis to look at Peruvian Deaths",
+            "description": "Do data analysis on the deaths of citizens for the year 2016.",
+            "stack": ["Python", "Jupyter Notebook", "matplotlib", "pandas"],
+            "url": "https://github.com/vahurtad/Data_Analysis_Peru"
+        }
+    ]
+}

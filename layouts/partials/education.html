@@ -1,0 +1,11 @@
+{{ $education := .Site.Data.education }}
+{{ $sections := .Site.Data.sections }}
+
+<section id="education" class="random1 text-light">
+  <h2 class="heading">{{ $education.title }}</h2>
+  <h5 class="mt-4">{{ $education.degree }}</h5>
+  <p class="">{{ $education.school }}</p>
+  <p class=""> Graduated {{ $education.graduationYear}}</p>
+</section>
+
+
