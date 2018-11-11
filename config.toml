@@ -1,6 +1,6 @@
-baseURL = "https://vahurtad.github.io/public/"
+baseURL = "https://vahurtad.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Vanessa Hurtado"
 layoutdir = "layouts"
 publishdir = "public"
 datadir = "data"
