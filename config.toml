@@ -1,6 +1,8 @@
-baseURL = "https://vahurtad.github.io/"
+baseURL = "https://vahurtad.github.io/public/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 layoutdir = "layouts"
 publishdir = "public"
+datadir = "data"
+staticdir= "static"
 canonifyurls = true
