@@ -1,5 +1,4 @@
 baseURL = "https://vahurtad.github.io/"
-theme = "uilite"
 languageCode = "en-us"
 title = "My New Hugo Site"
 contentdir = "content/post"
