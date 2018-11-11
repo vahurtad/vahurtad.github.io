@@ -1,4 +1,4 @@
-baseURL = "https://vahurtad.github.io/public"
+baseURL = "https://vahurtad.github.io/public/"
 languageCode = "en-us"
 title = "Vanessa Hurtado"
 layoutdir = "layouts"
