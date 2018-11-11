@@ -269,7 +269,7 @@ html {
   
   section.aqua {
     box-shadow: inset 0 0 0 1000px rgba(94, 234, 234, 0.8);
-    color: #bbbaba !important;
+    color: #000 !important;
   }
   
   section.pink {
