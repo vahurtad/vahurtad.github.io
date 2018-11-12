@@ -9,15 +9,15 @@
       {{ $sidebar.title }} 
       <span class="highlight">{{ $sidebar.highlightedText }}</span>
     </h1>
-    <p class="text-muted">{{ $sidebar.description }}</p>
-
+  
     <div class="social my-4">
+        <p class="text-muted">{{ $sidebar.description }}</p>
+        <p class="text-muted"> <i class="fas fa-envelope"></i> vanessa_hurtado@yahoo.com</p>
       {{ range $key, $value := $social }}
         <a target="_blank" href="{{ $value }}">
           <i class="fab fa-{{ $key }}"></i>
         </a>
       {{ end }}
-      
     </div>
   
   </div>
