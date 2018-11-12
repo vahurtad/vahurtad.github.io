@@ -109,6 +109,10 @@ html {
     font-family: 'Space Mono', monospace !important;
   }
 
+  p.sidebar {
+    font-size: 16px
+  }
+
   p.footer {
     font-size: 12px
   }
@@ -203,7 +207,7 @@ html {
   .social a {
     color: black;
     font-size: 28px;
-    margin-right: 12px;
+    margin-right: 5px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
