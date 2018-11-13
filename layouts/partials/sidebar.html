@@ -2,27 +2,26 @@
 {{ $social := .Site.Data.social }}
 <section id="sidebar" class="sidebar d-flex align-items-center p-5">
   <div class="main-info">
-
     <!-- <img src="{{.Site.BaseURL}}/images/{{ $sidebar.displayPicture }}" class="rounded-circle mb-3" width="160px"> -->
-
     <h1 class="heading">
       {{ $sidebar.title }} 
       <span class="highlight">{{ $sidebar.highlightedText }}</span>
     </h1>
-  
-    <div class="social my-4">
-        <p class="text-muted bs">{{ $sidebar.description }}</p>
-        <p class="text-muted bs">
-          <a><i class="fas fa-envelope"></i></a>vanessa_hurtado@yahoo.com
-        </p>
+    <div class="sidebartext">
+      <p class="text-muted">{{ $sidebar.description }}</p>        
+      <p class="text-muted">
+          {{ range $key, $value := $social }}
+          <a target="_blank" href="{{ $value }}">
+             <i class="fab fa-{{ $key }} miz"></i>
+           </a>
+         {{ end }}
+        <a>
+      </p>
 
-        <p class=" text-muted bs"><a target="_blank" href="{{ $social.resume }}"><i class="fas fa-file"></i></a>resume</p>
-        
-      {{ range $key, $value := $social }}
-        <a target="_blank" href="{{ $value }}">
-          <i class="fab fa-{{ $key }}"></i>
-        </a>
-      {{ end }}
+      <p class="text-muted"><i class="fas fa-envelope miz"></i></a> vanessa_hurtado@yahoo.com</p>
+      <p class=" text-muted"> <a target="_blank" href="{{ $social.resume }}">
+        <i class="fas fa-file miz"></i></a> resume
+      </p>
     </div>
   
   </div>

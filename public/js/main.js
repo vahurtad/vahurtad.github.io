@@ -16,8 +16,6 @@
 let sections = ["yellow", "pink", "violet", "blue", "orange", "green", "aqua"];
 let menuBtn = $("#menuBar");
 
-
-
 /**
  * Returns a random number between min (inclusive) and max (exclusive)
  */
@@ -72,15 +70,24 @@ menuBtn.click(function(){
 
 $(document).ready(function(){
   var elements = $(".sidebar > .main-info *");
+  var e = $(".sidebartext >");
   for(let i = 0; i < elements.length; i++){
     setTimeout(function(){
       $(elements[i].tagName).addClass("bs");
     }, (400 * i) - 90 * i );
   }
-  
 
+  var e = $(".sidebartext >");
+  for(let i = 0; i < e.length; i++){
+    setTimeout(function(){
+      $(e[i].tagName).addClass("miz");
+    }, (320 * i) - 90 * i );
+  }
+  
   setTimeout(function(){
     $(".main-content").addClass("active");
   }, 1900);
+
+  
 
 });

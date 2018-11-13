@@ -28,6 +28,13 @@ html {
             transform: translateX(0);
     opacity: 1;
   }
+
+  .sidebartext .miz {
+    
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
   
   .main-content {
     position: relative;
@@ -217,6 +224,27 @@ html {
   }
   
   .social a:hover i {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+
+  .miz:hover a {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .miz a {
+    color: black;
+    font-size: 28px;
+    margin-right: 5px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .miz a:hover {
+    color: black;
+  }
+  
+  .miz a:hover i {
     -webkit-transform: scale(1.3);
             transform: scale(1.3);
   }
